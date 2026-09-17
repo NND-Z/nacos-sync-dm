@@ -40,7 +40,7 @@ import java.util.Objects;
 @ToString
 @RequiredArgsConstructor
 @Entity
-@Table(name = "cluster")
+@Table(name = "sync_cluster")
 public class ClusterDO implements Serializable {
 
     @Id
